@@ -97,3 +97,5 @@ $(document).ready ->
   $(FILTER_TEXT).keyup debounce ->
     gel_filter = $(@).val()
     display_gels(gel_lib, gel_sort, gel_filter, gel_template)
+
+  window.gl = gel_lib

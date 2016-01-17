@@ -1100,7 +1100,7 @@
   code: L216
   name: White Diffusion
   description: "A strong diffusion used for soft light effects. Manufactured on a tough Polyester base in a range of seven strengths."
-  color:
+  color: FFFFFF
   stock:
     sheet: 0
     cut: 1
@@ -1118,7 +1118,7 @@
   code: L256
   name: Half Hampshire Frost
   description: "Extra light frost effect."
-  color:
+  color: FFFFFF
   stock:
     sheet: 1
     cut: 1
