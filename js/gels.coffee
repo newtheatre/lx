@@ -10,7 +10,7 @@ GEL_DATA_COLOR = "gel-color"
 GEL_DATA_NAME = "gel-name"
 GEL_DATA_DESCRIPTION = "gel-description"
 
-SORT_BUTTONS = ".gel-sort-button"
+SORT_BUTTONS = ".nav-button"
 SORT_NUMERIC = "#gel-sort-numeric"
 SORT_HUE = "#gel-sort-hue"
 
