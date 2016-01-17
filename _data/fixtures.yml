@@ -1,0 +1,8 @@
+- fixture:
+  brand: Selecon
+  model: Rama
+  type: Fresnel
+  stock:
+    good: 10
+    repair: 2
+    broken: 0

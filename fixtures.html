@@ -1,0 +1,24 @@
+---
+title: Fixture Stock
+layout: default
+permalink: /fixtures/
+---
+
+<div class="wrapper">
+
+<div class="gels">
+  <ul class="gels-list">
+    {% for fixture in site.data.fixtures %}
+    <li>
+      <div class="gel-item">
+        <div class="gel-swatch gel-swatch-{{ gel.code }}">
+          <div class="gel-swatch-code">{{ gel.code }}</div>
+        </div>
+        <h2>{{ fixture.brand }} {{ fixture.model }}</h2>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+</div>

@@ -1,0 +1,59 @@
+---
+title: Colour Stock
+layout: default
+permalink: /gels/
+---
+
+<div class="gel-sort-bar">
+  <div class="wrapper">
+    <div id="gel-sort-numeric" class="gel-sort-button gel-sort-numeric active">
+      <i class="ion-pound"></i>
+    </div>
+    <div id="gel-sort-hue" class="gel-sort-button gel-sort-hue">
+      <i class="ion-ios-color-filter"></i>
+    </div>
+    <div class="gel-search">
+      <input id="q" type="text" placeholder="search" />
+    </div>
+  </div>
+</div>
+
+<div class="wrapper">
+
+<div class="gels">
+  <ul id="gels-list" class="gels-list">
+    {% for gel in site.data.gels %}
+    <li
+      data-gel-sort="{{ gel.code | slice: 1, 100}}"
+      data-gel-code="{{ gel.code }}"
+      data-gel-color="{{ gel.color }}"
+      data-gel-name="{{ gel.name }}"
+      data-gel-description="{{ gel.description }}"
+    >
+      <div class="gel-item">
+        <div class="gel-swatch gel-swatch-{{ gel.code }}">
+          <div class="gel-swatch-code">{{ gel.code }}</div>
+        </div>
+        <h2>{{ gel.name }}</h2>
+        <p>{{ gel.description }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+</div>
+
+<script type="text/template" id="gel-template">
+  <li>
+    <div class="gel-item">
+      <div class="gel-swatch gel-swatch-<%= gel.code %>">
+        <div class="gel-swatch-code"><%= gel.code %></div>
+      </div>
+      <h2><%= gel.name %></h2>
+      <p><%= gel.description %></p>
+    </div>
+  </li>
+</script>
+
+<script type="text/javascript" src="/js/gels.js?cachebust={{ site.time | date: "%Y%m%d%H%M"}}"></script>

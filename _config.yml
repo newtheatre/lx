@@ -1,0 +1,13 @@
+# Site settings
+title: NTLX
+email: webmaster@newtheatre.org.uk
+description: >
+  New Theate's lighting stock
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://lx.newtheatre.org.uk" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+gems:
+ - jekyll-coffeescript
