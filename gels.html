@@ -24,7 +24,6 @@ permalink: /gels/
   <ul id="gels-list" class="gels-list">
     {% for gel in site.data.gels %}
     <li
-      data-gel-sort="{{ gel.code | slice: 1, 100}}"
       data-gel-code="{{ gel.code }}"
       data-gel-color="{{ gel.color }}"
       data-gel-name="{{ gel.name }}"

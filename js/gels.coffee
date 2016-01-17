@@ -5,7 +5,6 @@ GEL_TEMPLATE = "#gel-template"
 GEL_CONTAINER = "#gels-list"
 GEL_ELEMENTS = "#gels-list li"
 
-GEL_DATA_SORT = "gel-sort"
 GEL_DATA_CODE = "gel-code"
 GEL_DATA_COLOR = "gel-color"
 GEL_DATA_NAME = "gel-name"
@@ -70,7 +69,7 @@ $(document).ready ->
 
     # build gel object and push to array
     gel = {
-      sort: $(@).data(GEL_DATA_SORT)
+      sort: $(@).data(GEL_DATA_CODE).slice(1),
       code: $(@).data(GEL_DATA_CODE),
       color: $(@).data(GEL_DATA_COLOR),
       hue: rgb2hue(r,g,b),
