@@ -45,4 +45,14 @@ $grey-color-dark:  darken($grey-color, 25%)
 @import "index"
 @import "gels"
 
+{% for gel in site.data.gels %}
+{% if gel.code and gel.color %}
+.gel-{{ gel.code }}
+  background: mix(mix(#{{ gel.color }}, black, 90%), white, 50%)
+.gel-swatch-{{ gel.code }}
+  background: #{{ gel.color }}
 
+  .gel-swatch-code
+    color: darken(#{{ gel.color }}, 35%)
+{% endif %}
+{% endfor %}

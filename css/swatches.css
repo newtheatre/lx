@@ -1,8 +1,0 @@
----
----
-
-{% for gel in site.data.gels %}
-.gel-swatch-{{ gel.code }} {
-  background: #{{ gel.color }};
-}
-{% endfor %}

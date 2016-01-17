@@ -29,7 +29,7 @@ permalink: /gels/
       data-gel-name="{{ gel.name }}"
       data-gel-description="{{ gel.description }}"
     >
-      <div class="gel-item">
+      <div class="gel-item gel-{{ gel.code }}">
         <div class="gel-swatch gel-swatch-{{ gel.code }}">
           <div class="gel-swatch-code">{{ gel.code }}</div>
         </div>
@@ -45,7 +45,7 @@ permalink: /gels/
 
 <script type="text/template" id="gel-template">
   <li>
-    <div class="gel-item">
+    <div class="gel-item gel-<%= gel.code %>">
       <div class="gel-swatch gel-swatch-<%= gel.code %>">
         <div class="gel-swatch-code"><%= gel.code %></div>
       </div>

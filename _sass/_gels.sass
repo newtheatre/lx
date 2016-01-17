@@ -10,7 +10,7 @@
 
   li
     width: 100%
-    @include breakpoint(M)
+    @include breakpoint(S)
       width: 50%
     @include breakpoint(L)
       width: 33.333%
@@ -18,12 +18,14 @@
       width: 25%
     padding: 0.5rem
 
+$swatch-width: 25%
+
 .gel-item
   position: relative
-  padding: 0.5rem 0.5rem 0.5rem 26%
+  padding: 0.5rem 1rem 0.5rem $swatch-width+6%
   background: $color-background-alt
 
-  min-height: 7em
+  min-height: 8em
   overflow: hidden
 
   h2
@@ -36,7 +38,7 @@
   position: absolute
   top: 0
   left: 0
-  width: 20%
+  width: $swatch-width
   height: 16em
   margin-right: 4%
 
@@ -51,7 +53,6 @@
   font-size: 2em
   text-align: right
 
-  opacity: 0.6
 
 // Sort bar
 
@@ -83,6 +84,7 @@
   .gel-search
     flex: 1
 
+    margin-left: 2%
     @include breakpoint(S)
       margin-left: 20%
 
