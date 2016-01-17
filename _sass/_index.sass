@@ -1,17 +1,21 @@
 .site-index
-  display: flex
   list-style: none
   margin: 1em 0 6em 0
+  padding: 0
   li
+    max-width: 24em
+    margin: 1em auto
     background: $color-background-alt
-    flex: 1
-    margin: 1em
 
     a
       color: $color-text
       display: block
       padding: 1em
       font-size: 2em
+      text-decoration: none
 
       &:hover
         background: $color-nnt-orange
+
+      i
+        padding-right: 0.3em
