@@ -1,20 +1,20 @@
 ---
 title: Fixture Stock
 layout: default
-permalink: /fixtures/
+permalink: /lanterns/
 ---
 
 <div class="wrapper">
 
 <div class="gels">
   <ul class="gels-list">
-    {% for fixture in site.data.fixtures %}
+    {% for lantern in site.data.lanterns %}
     <li>
       <div class="gel-item">
         <div class="gel-swatch gel-swatch-{{ gel.code }}">
           <div class="gel-swatch-code">{{ gel.code }}</div>
         </div>
-        <h2>{{ fixture.brand }} {{ fixture.model }}</h2>
+        <h2>{{ lantern.brand }} {{ lantern.model }}</h2>
       </div>
     </li>
     {% endfor %}
