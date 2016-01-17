@@ -6,17 +6,20 @@ permalink: /lanterns/
 
 <div class="wrapper">
 
-<p>This isn't a thing yet, <a href="/">back</a>.
-
-<div class="gels">
-  <ul class="gels-list">
+<div class="lanterns">
+  <ul class="lanterns-list">
     {% for lantern in site.data.lanterns %}
     <li>
-      <div class="gel-item">
-        <div class="gel-swatch gel-swatch-{{ gel.code }}">
-          <div class="gel-swatch-code">{{ gel.code }}</div>
+      <div class="lantern-item lantern-type-{{ lantern.type | downcase }}">
+        <div class="lantern-image">
+          {% if lantern.image %}
+          <img src="/images/lanterns/{{ lantern.image }}" />
+          {% endif %}
         </div>
-        <h2>{{ lantern.brand }} {{ lantern.model }}</h2>
+        <h2>{{ lantern.brand }} <strong>{{ lantern.model }}</strong></h2>
+        {% if lantern.nickname %}<p><em>{{ lantern.nickname }}</em></p>{% endif %}
+        {% if lantern.power %}<p><i class="ion-flash"></i> {{ lantern.power }}W</p>{% endif %}
+        {% if lantern.stock.good %}<p><i class="ion-pricetags"></i> {{ lantern.stock.good }} in stock</p>{% endif %}
       </div>
     </li>
     {% endfor %}

@@ -1,39 +1,14 @@
 .gels
-  margin: 4em 0 1em 0
+  @include boxy-list-container
 
 .gels-list
-  margin: 0
-  padding: 0
-  list-style: none
-  display: flex
-  flex-wrap: wrap
-
-  li
-    width: 100%
-    @include breakpoint(S)
-      width: 50%
-    @include breakpoint(L)
-      width: 33.333%
-    @include breakpoint(XL)
-      width: 25%
-    padding: 0.5rem
+  @include boxy-list
 
 $swatch-width: 25%
 
 .gel-item
-  color: $color-text
-  position: relative
-  padding: 0.5rem 1rem 0.5rem $swatch-width+6%
-  background: $color-background-alt
-
-  min-height: 8em
-  overflow: hidden
-
-  h2
-    margin: 0 0 0.5rem 0
-
-  h2 + p
-    margin-top: 0
+  @include boxy-list-item
+  padding: 1rem 1rem 1rem $swatch-width+6%
 
 .gel-swatch
   position: absolute

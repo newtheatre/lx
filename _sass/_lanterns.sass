@@ -1,0 +1,50 @@
+$color-fresnel: #DC6D15
+$color-profile: #D0357D
+$color-flood: #32E1E5
+$color-strobe: yellow
+
+
+.lanterns
+  @include boxy-list-container
+
+.lanterns-list
+  @include boxy-list
+
+$swatch-width: 25%
+
+.lantern-item
+  @include boxy-list-item
+  color: $color-text-white
+  padding: 1rem 1rem 1rem $swatch-width+6%
+
+  i
+    font-size: 1.6em
+    vertical-align: middle
+
+  h2
+    font-weight: lighter
+
+.lantern-image
+  position: absolute
+  top: 0
+  left: 0
+  width: $swatch-width
+  height: 16em
+  margin-right: 4%
+
+  background: white
+
+  img
+    padding: 0.5rem
+    width: 100%
+
+$background-mix: 45%
+
+.lantern-type-fresnel
+  background: mix($color-fresnel, $color-background, $background-mix)
+.lantern-type-profile
+  background: mix($color-profile, $color-background, $background-mix)
+.lantern-type-flood
+  background: mix($color-flood, $color-background, $background-mix)
+.lantern-type-strobe
+  background: mix($color-strobe, $color-background, $background-mix)

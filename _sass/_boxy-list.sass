@@ -1,0 +1,37 @@
+@mixin boxy-list-container
+  margin: 4em 0 1em 0
+
+@mixin boxy-list
+  display: flex
+  flex-wrap: wrap
+
+  margin: 0
+  padding: 0
+
+  list-style: none
+
+  li
+    width: 100%
+    @include breakpoint(S)
+      width: 50%
+    @include breakpoint(L)
+      width: 33.333%
+    @include breakpoint(XL)
+      width: 25%
+    padding: 0.5rem
+
+@mixin boxy-list-item
+  color: $color-text
+  position: relative
+  padding: 1rem
+  background: $color-background-alt
+
+  min-height: 8em
+  overflow: hidden
+
+  h2
+    margin: 0 0 0.5rem 0
+    font-size: 1.2em
+
+  h2 + p
+    margin-top: 0

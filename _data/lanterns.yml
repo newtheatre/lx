@@ -2,7 +2,173 @@
   brand: Selecon
   model: Rama
   type: Fresnel
+  power: 1200
+  image: rama.jpg
   stock:
     good: 10
-    repair: 2
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand: Selecon
+  model: Acclaim
+  type: Fresnel
+  power: 650
+  image: acclaim-fresnel.jpg
+  stock:
+    good: 18
+    repair: 0
+    broken: 0
+
+- lantern:
+  nickname: FOFF
+  brand: Strand
+  model: Patt 743
+  type: Fresnel
+  power: 1000
+  image: patt743.jpg
+  stock:
+    good: 4
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand: CCT
+  model: Minuette
+  type: Fresnel
+  power: 650
+  image: cct-minuette.jpg
+  stock:
+    good: 2
+    repair: 0
+    broken: 0
+
+- lantern:
+  nickname: Egg
+  brand: Strand
+  model: Patt 123
+  type: Fresnel
+  power: 500
+  image: patt123.jpg
+  stock:
+    good: 4
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand: ETC
+  model: Source 4 Junior Zoom
+  type: Profile
+  power: 575
+  image: s4jnr.jpg
+  stock:
+    good: 10
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand: Selecon
+  model: Acclaim Zoomspot
+  type: Profile
+  power: 650
+  image: acclaim-zoomspot.jpg
+  stock:
+    good: 4
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand: Selecon
+  model: Condenser
+  type: Profile
+  stock:
+    good: 2
+    repair: 0
+    broken: 0
+
+- lantern:
+  nickname: Nose
+  brand: Strand
+  model: Patt 23
+  type: Profile
+  power: 500
+  image: patt23.jpg
+  stock:
+    good: 3
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand: Chauvet
+  model: COLORdash Par-Quad 18
+  type: Flood
+  power: 117
+  image: colordash-par-quad-18.jpg
+  stock:
+    good: 8
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand:
+  model: PAR64
+  type: Flood
+  power: 1000
+  image: par64.jpg
+  stock:
+    good: 8
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand:
+  model: PAR16
+  type: Flood
+  power: 75
+  image: par16.jpg
+  stock:
+    good: 15
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand: Strand
+  model: Coda 500
+  type: Flood
+  power: 500
+  image: coda500.jpg
+  stock:
+    good: 1
+    repair: 0
+    broken: 1
+
+- lantern:
+  brand: Strand
+  model: Patt 137
+  type: Flood
+  image: patt137.jpg
+  stock:
+    good: 2
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand: Martin
+  model: Atomic 3000
+  type: Strobe
+  image: atomic.jpg
+  power: 2000
+  stock:
+    good: 1
+    repair: 0
+    broken: 0
+
+- lantern:
+  brand: Pulsar
+  model: Strobe
+  type: Strobe
+  image: pulsar-strobe.jpg
+  stock:
+    good: 1
+    repair: 0
     broken: 0
