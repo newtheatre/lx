@@ -51,9 +51,9 @@
   power: 500
   image: patt123.jpg
   stock:
-    good: 4
+    good: 0
     repair: 0
-    broken: 0
+    broken: 3
 
 - lantern:
   brand: ETC
@@ -86,17 +86,6 @@
     repair: 0
     broken: 0
 
-- lantern:
-  nickname: Nose
-  brand: Strand
-  model: Patt 23
-  type: Profile
-  power: 500
-  image: patt23.jpg
-  stock:
-    good: 3
-    repair: 0
-    broken: 0
 
 - lantern:
   brand: Chauvet
@@ -105,7 +94,7 @@
   power: 117
   image: colordash-par-quad-18.jpg
   stock:
-    good: 8
+    good: 6
     repair: 0
     broken: 0
 
