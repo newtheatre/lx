@@ -1,0 +1,117 @@
+- gobo:
+  make: Rosco
+  number: 77124
+  name: Lattice
+  type: Architecture
+  image: rosco-77124.gif
+  stock:
+    - size: M
+      qty: 2
+- gobo:
+  make: Rosco
+  number: 77703
+  name: Double Hung Window
+  type: Architecture
+  image: rosco-77703.gif
+  stock:
+    - size: M
+      qty: 4
+- gobo:
+  make: Rosco
+  number: 77805
+  name: Leaf Breakup
+  type: Breakup
+  image: rosco-77805.gif
+  stock:
+    - size: M
+      qty: 4
+- gobo:
+  make: Gam
+  number: G862
+  name: Rain
+  type: Breakup
+  image: 
+  stock:
+    - size: B
+      qty: 2
+- gobo:
+  make: Rosco
+  number: 78576
+  name: Hard Rain
+  type: Breakup
+  image: rosco-78576.jpg
+  stock:
+    - size: B
+      qty: 2
+- gobo:
+  make: Gam
+  number: G222
+  name: Small Breakup
+  type: Breakup
+  image: gam-g222.jpg
+  stock:
+    - size: B
+      qty: 2
+- gobo:
+  make: Gam
+  number: G326
+  name: Water
+  type: Breakup
+  image: gam-g326.jpg
+  stock:
+    - size: B
+      qty: 1
+- gobo:
+  make: Gam
+  number: G282
+  name: Whirl
+  type: Breakup
+  image: gam-282.jpg
+  stock:
+    - size: B
+      qty: 2
+- gobo:
+  make: Rosco
+  number: 77802
+  name: Stain Glassed Window
+  type: Breakup
+  image: rosco-77802.gif
+  stock:
+    - size: M
+      qty: 1
+- gobo:
+  make: Rosco
+  number: 77178
+  name: Lightning 1
+  type: Breakup
+  image: 
+  stock:
+    - size: M
+      qty: 1
+- gobo:
+  make: Rosco
+  number: 99203
+  name: Linear 10
+  type: Breakup
+  image: rosco-99203.jpg
+  stock:
+    - size: M
+      qty: 5
+- gobo:
+  make: Rosco
+  number: 79655
+  name: Jail Bars Vertical
+  type: Breakup
+  image: 
+  stock:
+    - size: M
+      qty: 4
+- gobo:
+  make: Rosco
+  number: 71036
+  name: Lightning 7
+  type: Breakup
+  image: 
+  stock:
+    - size: M
+      qty: 1
