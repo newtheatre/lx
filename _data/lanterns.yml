@@ -146,7 +146,7 @@
   model: Atomic 3000
   type: Strobe
   image: atomic.jpg
-  power: 2000
+  power: 3000
   stock:
     good: 1
     repair: 0
