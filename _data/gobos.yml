@@ -3,7 +3,7 @@
   number: 77124
   name: Lattice
   type: Architecture
-  image: rosco-77124.gif
+  image: rosco-77124.png
   stock:
     - size: M
       qty: 2
@@ -12,7 +12,7 @@
   number: 77703
   name: Double Hung Window
   type: Architecture
-  image: rosco-77703.gif
+  image: rosco-77703.png
   stock:
     - size: M
       qty: 4
@@ -21,7 +21,7 @@
   number: 77805
   name: Leaf Breakup
   type: Breakup
-  image: rosco-77805.gif
+  image: rosco-77805.png
   stock:
     - size: M
       qty: 4
@@ -30,7 +30,7 @@
   number: G862
   name: Rain
   type: Breakup
-  image: 
+  image:
   stock:
     - size: B
       qty: 2
@@ -39,7 +39,7 @@
   number: 78576
   name: Hard Rain
   type: Breakup
-  image: rosco-78576.jpg
+  image: rosco-78576.png
   stock:
     - size: B
       qty: 2
@@ -48,7 +48,7 @@
   number: G222
   name: Small Breakup
   type: Breakup
-  image: gam-g222.jpg
+  image: gam-g222.png
   stock:
     - size: B
       qty: 2
@@ -57,7 +57,7 @@
   number: G326
   name: Water
   type: Breakup
-  image: gam-g326.jpg
+  image: gam-g326.png
   stock:
     - size: B
       qty: 1
@@ -66,7 +66,7 @@
   number: G282
   name: Whirl
   type: Breakup
-  image: gam-282.jpg
+  image: gam-282.png
   stock:
     - size: B
       qty: 2
@@ -75,7 +75,7 @@
   number: 77802
   name: Stain Glassed Window
   type: Breakup
-  image: rosco-77802.gif
+  image: rosco-77802.png
   stock:
     - size: M
       qty: 1
@@ -84,7 +84,7 @@
   number: 77178
   name: Lightning 1
   type: Breakup
-  image: 
+  image:
   stock:
     - size: M
       qty: 1
@@ -93,7 +93,7 @@
   number: 99203
   name: Linear 10
   type: Breakup
-  image: rosco-99203.jpg
+  image: rosco-99203.png
   stock:
     - size: M
       qty: 5
@@ -102,7 +102,7 @@
   number: 79655
   name: Jail Bars Vertical
   type: Breakup
-  image: 
+  image:
   stock:
     - size: M
       qty: 4
@@ -111,7 +111,7 @@
   number: 71036
   name: Lightning 7
   type: Breakup
-  image: 
+  image:
   stock:
     - size: M
       qty: 1
