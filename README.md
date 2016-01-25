@@ -19,6 +19,10 @@ Stock lists are stored in [YAML](http://yaml.org/) files within the `_data/` dir
 
 - For lanterns edit file `_data/lanterns.yml`, the format hasn't been finalised yet.
 
+## Updating library from leefilters.com
+
+The script `_bin/lee_scrape.py` will load colour data, names and descriptions from LEE's catalogue. `_data/gels.yml` will be read in and updated where colours are present.
+
 ## Forking
 
 This project is designed to be hosted using [GitHub Pages](https://pages.github.com/) and requires some knowlege of Git. To use this project for your own venue:
