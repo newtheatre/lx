@@ -1,5 +1,5 @@
 - lantern:
-  brand: Selecon
+  make: Selecon
   model: Rama
   type: Fresnel
   power: 1200
@@ -10,7 +10,7 @@
     broken: 0
 
 - lantern:
-  brand: Selecon
+  make: Selecon
   model: Acclaim
   type: Fresnel
   power: 650
@@ -22,7 +22,7 @@
 
 - lantern:
   nickname: FOFF
-  brand: Strand
+  make: Strand
   model: Patt 743
   type: Fresnel
   power: 1000
@@ -33,7 +33,7 @@
     broken: 0
 
 - lantern:
-  brand: CCT
+  make: CCT
   model: Minuette
   type: Fresnel
   power: 650
@@ -45,7 +45,7 @@
 
 - lantern:
   nickname: Egg
-  brand: Strand
+  make: Strand
   model: Patt 123
   type: Fresnel
   power: 500
@@ -56,7 +56,7 @@
     broken: 3
 
 - lantern:
-  brand: ETC
+  make: ETC
   model: Source 4 Junior Zoom
   type: Profile
   power: 575
@@ -67,7 +67,7 @@
     broken: 0
 
 - lantern:
-  brand: Selecon
+  make: Selecon
   model: Acclaim Zoomspot
   type: Profile
   power: 650
@@ -78,7 +78,7 @@
     broken: 0
 
 - lantern:
-  brand: Selecon
+  make: Selecon
   model: Condenser
   type: Profile
   stock:
@@ -88,7 +88,7 @@
 
 
 - lantern:
-  brand: Chauvet
+  make: Chauvet
   model: COLORdash Par-Quad 18
   type: Flood
   power: 117
@@ -99,7 +99,7 @@
     broken: 0
 
 - lantern:
-  brand:
+  make:
   model: PAR64
   type: Flood
   power: 1000
@@ -110,7 +110,7 @@
     broken: 0
 
 - lantern:
-  brand:
+  make:
   model: PAR16
   type: Flood
   power: 75
@@ -121,7 +121,7 @@
     broken: 0
 
 - lantern:
-  brand: Strand
+  make: Strand
   model: Coda 500
   type: Flood
   power: 500
@@ -132,7 +132,7 @@
     broken: 1
 
 - lantern:
-  brand: Strand
+  make: Strand
   model: Patt 137
   type: Flood
   image: patt137.jpg
@@ -142,7 +142,7 @@
     broken: 0
 
 - lantern:
-  brand: Martin
+  make: Martin
   model: Atomic 3000
   type: Strobe
   image: atomic.jpg
@@ -153,7 +153,7 @@
     broken: 0
 
 - lantern:
-  brand: Pulsar
+  make: Pulsar
   model: Strobe
   type: Strobe
   image: pulsar-strobe.jpg

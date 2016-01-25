@@ -14,6 +14,32 @@ permalink: /gobos/
 
 <div class="wrapper">
 
-<p>This isn't a thing yet.</p>
+<div class="gobos">
+  <ul class="gobos-list">
+    {% for gobo in site.data.gobos %}
+    <li>
+      <div class="gobo-item gobo-type-{{ gobo.type | downcase }}">
+        {% if gobo.image %}
+        <div class="gobo-image">
+          <img src="/images/gobos/{{ gobo.image }}" />
+        </div>
+        {% else %}
+        <div class="gobo-image gobo-no-image">
+        </div>
+        {% endif %}
+        <h2 class="gobo-title">{{ gobo.make }} <strong>{{ gobo.number }}</strong></h2>
+        {% if gobo.name %}<p class="gobo-name">{{ gobo.name }}</p>{% endif %}
+        {% if gobo.stock %}
+        <dl class="gobo-stock-list">
+          {% for stock in gobo.stock %}
+          <dt>{{ stock.size }}</dt><dd>{{ stock.qty }}</dd>
+          {% endfor %}
+        </dl>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 
 </div>

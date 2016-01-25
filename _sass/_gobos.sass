@@ -1,0 +1,60 @@
+$color-gobo: #1F1F1F
+
+.gobos
+  @include boxy-list-container
+
+.gobos-list
+  @include boxy-list
+
+$swatch-width: 25%
+
+.gobo-item
+  @include boxy-list-item
+  background: $color-gobo
+  color: $color-text-white
+  padding: 1rem 1rem 1rem $swatch-width+6%
+
+  i
+    font-size: 1.6em
+    vertical-align: middle
+
+  .gobo-title
+    font-weight: lighter
+    margin-bottom: 0
+
+  .gobo-name
+    margin-bottom: 1em
+
+.gobo-image
+  position: absolute
+  top: 0
+  left: 0
+  width: $swatch-width
+  height: 16em
+  margin-right: 4%
+
+  background: white
+
+  img
+    padding: 0.5rem
+    width: 100%
+
+.gobo-no-image
+  background: #ccc
+
+$color-gobo-stock: #58728E
+
+.gobo-stock-list
+  dt, dd
+    display: inline
+    padding: 0.3em 0.4em
+
+  dt
+    // padding-right: 0.2em
+    background: mix($color-gobo, $color-gobo-stock, 60%)
+
+  dd
+    margin-left: 0
+    // padding-left: 0.2em
+    background: mix($color-gobo, $color-gobo-stock, 20%)
+

@@ -24,8 +24,8 @@ permalink: /lanterns/
           <img src="/images/lanterns/{{ lantern.image }}" />
           {% endif %}
         </div>
-        <h2>{{ lantern.brand }} <strong>{{ lantern.model }}</strong></h2>
-        {% if lantern.nickname %}<p><em>{{ lantern.nickname }}</em></p>{% endif %}
+        <h2 class="lantern-title">{{ lantern.make }} <strong>{{ lantern.model }}</strong></h2>
+        {% if lantern.nickname %}<p class="lantern-name">{{ lantern.nickname }}</p>{% endif %}
         {% if lantern.power %}<p><i class="ion-flash"></i> {{ lantern.power }}W</p>{% endif %}
         {% if lantern.stock.good %}<p><i class="ion-pricetags"></i> {{ lantern.stock.good }} in stock</p>{% endif %}
       </div>
