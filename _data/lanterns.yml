@@ -110,7 +110,7 @@
     broken: 0
 
 - lantern:
-  make:
+  nickname: Birdie
   model: PAR16
   type: Flood
   power: 75
