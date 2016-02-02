@@ -23,6 +23,12 @@ Stock lists are stored in [YAML](http://yaml.org/) files within the `_data/` dir
 
 The script `_bin/lee_scrape.py` will load colour data, names and descriptions from LEE's catalogue. `_data/gels.yml` will be read in and updated where colours are present.
 
+## Adding stocktake data
+
+Type out, or use a spreadsheet program to write `_stocktake/cut.csv` and `_stocktake/sheet.csv`. Cut has three columns (none, some, many) whereas sheet has one which is unlabelled. Type out codes as you count, *i.e.* three L201s would be L201 repeated three times on their own line.
+
+Once CSVs are complete run `_bin/stocktake.py`, the script will warn if it's adding colours the data file has no name or colour information for.
+
 ## Forking
 
 This project is designed to be hosted using [GitHub Pages](https://pages.github.com/) and requires some knowlege of Git. To use this project for your own venue:

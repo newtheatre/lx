@@ -2,874 +2,901 @@
   color: FF78DC
   description: Strong pink wash, good for cycloramas.
   name: Rose Pink
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L3
   color: FAF0FA
   description: Subtle cool wash for stage and studio lighting.
   name: Lavender Tint
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L4
   color: FFC8B4
   description: Naturally enhances skin tones.
   name: Medium Bastard Amber
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L7
   color: FAFAD2
   description: Sunlight.
   name: Pale Yellow
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: some, sheet: 0}
 
 - code: L8
   color: FC9B80
   description: Enhances dark skin tones, sunsets, ballroom sets.
   name: Dark Salmon
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L9
   color: FCD7B3
   description: Perfect warm front light for any skin tone.
   name: Pale Amber Gold
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: some, sheet: 0}
 
 - code: L10
   color: FFFF00
   description: A pure bright yellow. Great for special effects and accents. Use with caution in acting areas.
   name: Medium Yellow
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L13
   color: FCD89B
   description: Warmer than other straw colours. A good sunlight effect when used in contrast with ambers and blues.
   name: Straw Tint
-  stock: {cut: 1, sheet: 0}
+  stock: {cut: none, sheet: 0}
 
 - code: L15
   color: FFCD00
   description: A warm amber light. Good for effects such as candlelight and fire.
   name: Deep Straw
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: some, sheet: 0}
 
 - code: L17
   color: E68C64
   description: Good for skin tones and creating a moody lighting effect.
   name: Surprise Peach
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L19
   color: FF4600
   description: A strong red/amber. Great for fire effects.
   name: Fire
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: many, sheet: 0}
 
 - code: L20
   color: FFBE55
   description: Good for afternoon sunlight and candlelight. Also great for side lighting.
   name: Medium Amber
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L21
   color: FF8C32
   description: Great for sunsets, cyclorama lighting and fire effects.
   name: Gold Amber
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L22
   color: FF6900
   description: A good backlight.
   name: Dark Amber
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L24
   color: FF5A64
   description: Great for pantomimes, ballroom sets and fire effects.
   name: Scarlet
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L25
   color: FF6E46
   description: A good warm stage wash, TV studio wash or sunset effect.
   name: Sunset Red
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: some, sheet: 0}
 
 - code: L26
   color: E6003C
   description: A vibrant red, good for cyclorama lighting.
   name: Bright Red
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L27
   color: C8003C
   description: Good for cyclorama lighting, side lighting and footlights. Also good for colour mixing.
   name: Medium Red
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 1}
 
 - code: L29
   color: E1003C
   description: Good for fire effects, musicals and cycloramas.
   name: Plasa Red
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L35
   color: FFC8D2
   description: A warm wash good for musical reviews.
   name: Light Pink
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L36
   color: FFA0B9
   description: Good for general washes and side lighting.
   name: Medium Pink
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L39
   color: FFBEE1
   description: A soft, cool pastel pink, good for backlighting and general colourwash.
   name: Pink Carnation
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L46
   color: DC005A
   description: A very strong pink, good for backlighting.
   name: Dark Magenta
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L48
   color: E66EAF
   description: Good for emulating evening. Great backlight.
   name: Rose Purple
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L49
   color: BE0091
   description: A strong cheerful glow, good for cycloramas and pantomimes.
   name: Medium Purple
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L52
   color: E6AAFA
   description: Good for general areas and side lights. Great for a basic followspot colour as well as an excellent backlight.
   name: Light Lavender
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L53
   color: E6E6FA
   description: A subtle cool wash.
   name: Paler Lavender
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: many, sheet: 2}
 
 - code: L58
   color: B46EF0
   description: An excellent backlight that creates a new dimension.
   name: Lavender
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L61
   color: DCF5FF
   description: A cool wash good for night scenes.
   name: Mist Blue
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: many, sheet: 0}
 
 - code: L63
   color: D2F5FF
   description: Cool front light wash, good for creating an overcast look for cold weather.
   name: Pale Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L68
   color: 46B4F0
   description: Good for morning skin tones and night skies. Great for cyclorama lights.
   name: Sky Blue
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 1}
 
 - code: L71
   color: 0000B4
   description: A deep blue, used for midnight scenes and cyclorama lighting.
   name: Tokyo Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L75
   color: 64A0F0
   description: Good for night scenes and romantic moonlight.
   name: Evening Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L79
   color: 3C8CD2
   description: A good colour mixing blue. Great for cyclorama lighting.
   name: Just Blue
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 1}
 
 - code: L85
   color: 006EB9
   description: A deep warm blue. Good for back and side lighting.
   name: Deeper Blue
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: some, sheet: 2}
 
 - code: L85
   color: 006EB9
   description: A deep warm blue. Good for back and side lighting.
   name: Deeper Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L88
   color: DCFF64
   description: Use with gobos for leafy glades. Good for pantomimes, giving a slightly sinister atmosphere.
   name: Lime Green
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L89
   color: 5ADC5A
   description: Good mood creator. Used with gobos, creates a great foliage effect.
   name: Moss Green
-  stock: {cut: 2, sheet: 0}
+  stock: {cut: none, sheet: 0}
 
 - code: L90
   color: 00BE00
   description: Highlighting for forest effects.
   name: Dark Yellow Green
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: many, sheet: 0}
 
 - code: L100
   color: F5FF00
   description: A sunlight wash - use with gobos, disco and dark skin tones.
   name: Spring Yellow
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L101
   color: FFF500
   description: Sunlight and window effect - pleasant in acting areas.
   name: Yellow
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L102
   color: FFDC5F
   description: A warm yellow colour. Great for candlelight or warm bright sunlight effects.
   name: Light Amber
-  stock: {cut: 3, sheet: 1}
+  stock: {cut: many, sheet: 0}
 
 - code: L103
   color: FCEACC
   description: Pale sunlight through a window and a good warm winter effect.
   name: Straw
-  stock: {cut: 3, sheet: 1}
+  stock: {cut: many, sheet: 2}
 
 - code: L104
   color: FFDC00
   description: Good for sunlight effect, accents and side light. Be careful of skin tones under the reddish tint of this colour.
   name: Deep Amber
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: some, sheet: 1}
 
 - code: L105
   color: FFA000
   description: Good for light entertainment and functions. Creates a good fire effect when used with 106 or 104.
   name: Orange
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 1}
 
 - code: L106
   color: F00032
   description: Strong red effect. Good with cyclorama lighting.
   name: Primary Red
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: some, sheet: 1}
 
 - code: L107
   color: FFA5AF
   description: Good for general washes and followspots.
   name: Light Rose
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L108
   color: FCBEA9
   description: Warm tint wash. Dark flesh tones and softer skin tones.
   name: English Rose
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: many, sheet: 1}
 
 - code: L109
   color: FFB2AF
   description: Interesting backlight.
   name: Light Salmon
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L110
   color: FFB4C8
   description: Pleasing effects for theatrical lighting.
   name: Middle Rose
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: some, sheet: 1}
 
 - code: L111
   color: FF8CBE
   description: Good for cyclorama lighting.
   name: Dark Pink
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L113
   color: FF0064
   description: Very strong - used carefully for small areas on set.
   name: Magenta
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L115
   color: 00EBC8
   description: A pleasing effect on set Good for cyclorama and backlighting (e.g. ice rinks, galas, etc).
   name: Peacock Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L116
   color: 00C8B9
   description: A pleasing effect for theatrical lighting.
   name: Medium Blue-Green
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L117
   color: B4FAF5
   description: Good for cool washes. Adds a pale green tint. Great for emulating icy weather on stage.
   name: Steel Blue
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: some, sheet: 2}
 
 - code: L118
   color: 00E1EB
   description: A strong night effect.
   name: Light Blue
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: some, sheet: 0}
 
 - code: L119
   color: 0078C8
   description: Good for mood effects created by backlighting and side lighting. Creates great contrast.
   name: Dark Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L120
   color: 005FBE
   description: A pleasing effect for theatrical lighting.
   name: Deep Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 1}
 
 - code: L121
   color: B4FF64
   description: Good for dense foliage, tropical jungle or woodland effect.
   name: LEE Green
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 1}
 
 - code: L122
   color: 78FA6E
   description: Good for cycloramas and creates a great mood effect.
   name: Fern Green
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L124
   color: 00DC78
   description: Good for cycloramas and backlighting.
   name: Dark Green
-  stock: {cut: None, sheet: None}
+  stock: {cut: some, sheet: 0}
 
 - code: L126
   color: BE009B
   description: Good for backlighting. Dark magenta / purple adds drama and mood.
   name: Mauve
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: some, sheet: 1}
 
 - code: L127
   color: E16273
   description: Good for cycloramas, set lighting and discos.
   name: Smokey Pink
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L128
   color: FF50B4
   description: Created for use as backlighting and side lighting. Great for musicals.
   name: Bright Pink
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L130
   color: FFFFFF
   description: Used in animation and projection work.
   name: Clear
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L131
   color: 64FAD2
   description: Good for romantic moonlight. Often used in ballet and underwater scenes.
   name: Marine Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L132
   color: 00A0DC
   description: Deep moonlight. Great for colour mixing.
   name: Medium Blue
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 1}
 
 - code: L134
   color: FAA873
   description: Great for emulating a sunset. Also good for side lighting and cyclorama lighting.
   name: Golden Amber
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L135
   color: FF5F00
   description: A great fire effect.
   name: Deep Golden Amber
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L136
   color: F0BEE6
   description: Great for pantomimes and ballroom sets. Also enhances dark skin tones in follow spots.
   name: Pale Lavender
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L137
   color: C8B4E6
   description: Good for moonlight and musical / romantic scenes. Enhances skin tones.
   name: Special Lavender
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: some, sheet: 2}
 
 - code: L138
   color: DCFFA0
   description: Good with gobos for wooded scenes.
   name: Pale Green
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L139
   color: 4BC300
   description: Good for set lighting and cyclorama lighting.
   name: Primary Green
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 1}
 
 - code: L140
   color: 87F0EB
   description: Good for light midday sky. Light blue tinted wash.
   name: Summer Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L141
   color: 00D2E6
   description: Very dramatic when used as moonlight.
   name: Bright Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L142
   color: AAAAF0
   description: 'Great Moonlight effect. Good for cyclorama lighting and highlighting foliage on plants. '
   name: Pale Violet
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L143
   color: 64BED2
   description: Great moonlight / night effect.
   name: Pale Navy Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L144
   color: 5AE1E6
   description: A clean blue with hints of green. Good for moonlight and sidelight.
   name: No Colour Blue
-  stock: {cut: 4, sheet: 1}
+  stock: {cut: none, sheet: 5}
 
 - code: L147
   color: FCB98C
   description: Good for sunrise, sunset and lamplight effects.
   name: Apricot
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: some, sheet: 1}
 
 - code: L148
   color: FF507D
   description: Great for fire effects and musicals.
   name: Bright Rose
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: some, sheet: 0}
 
 - code: L151
   color: FFCDC3
   description: A pleasing effect for theatrical lighting.
   name: Gold Tint
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L152
   color: FFD2C1
   description: Used with interior lighting to enhance skin tones.
   name: Pale Gold
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: many, sheet: 1}
 
 - code: L153
   color: FFC8C8
   description: Good for backlighting in conjunction with white light.
   name: Pale Salmon
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L154
   color: FFD5CF
   description: A pleasing effect for theatrical lighting. A good lamplight effect.
   name: Pale Rose
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L156
   color: E1B48C
   description: Warms light and reduces the intensity.
   name: Chocolate
-  stock: {cut: None, sheet: None}
+  stock: {cut: some, sheet: 0}
 
 - code: L157
   color: FF92A3
   description: Great for dance sequences (useful for softening white costumes without affecting skin tones).
   name: Pink
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L158
   color: FF8700
   description: A great fire effect.
   name: Deep Orange
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L159
   color: FFFAEB
   description: A warm effect. Sunlight.
   name: No Colour Straw
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: some, sheet: 2}
 
 - code: L161
   color: 7DD2F5
   description: A pure medium blue. Good for skies, moonlight and dusk effects.
   name: Slate Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L162
   color: FCDED8
   description: A warm white / warm wash. Good lamplight effect.
   name: Bastard Amber
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: many, sheet: 1}
 
 - code: L164
   color: FF3200
   description: Great for fire effects.
   name: Flame Red
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L165
   color: 5AC8EB
   description: Great for moonlight effect.
   name: Daylight Blue
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L166
   color: FF7387
   description: Good for cyclorama lighting.
   name: Pale Red
-  stock: {cut: 0, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L166
   color: FF7387
   description: Good for cyclorama lighting.
   name: Pale Red
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L169
   color: FADCF0
   description: A pale lavender. Good for almost white light with a cool tint.
   name: Lilac Tint
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L170
   color: E6AADC
   description: Great for set lighting, discos and theatres.
   name: Deep Lavender
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L172
   color: 00DCDC
   description: A floodlit warm wash. Great for underwater scenes and ballet.
   name: Lagoon Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L174
   color: AFE1FA
   description: Great for set lighting. Creates good moonlight shadows.
   name: Dark Steel Blue
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: some, sheet: 2}
 
 - code: L176
   color: FFAAA0
   description: Used for backlighting and general areas. Great for sunrise effect and warming skin tones.
   name: Loving Amber
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: many, sheet: 0}
 
 - code: L179
   color: FFBE00
   description: A combination of 1/2 CTO and double strength 104, perfect for sunlight.
   name: Chrome Orange
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L180
   color: A064E6
   description: A pleasing effect for theatrical lighting and backlighting.
   name: Dark Lavender
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 1}
 
 - code: L181
   color: 5000AA
   description: Looks like black light when used with a fluorescent source. Great effect colour. Very saturated.
   name: Congo Blue
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 1}
 
 - code: L182
   color: F50000
   description: Good for theatre and television effect lighting as well as cycloramas.
   name: Light Red
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L183
   color: 00D7E3
   description: Good for moonlight effect and cycloramas.
   name: Moonlight Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L192
   color: FF8CB4
   description: Good for musical and pantomime key lighting.
   name: Flesh Pink
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L193
   color: FF969B
   description: Warm, emotional and romantic.
   name: Rosy Amber
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L194
   color: BE8CF0
   description: Good for musicals.
   name: Surprise Pink
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L195
   color: 006ED2
   description: Creates a good moonlight effect on a dark set. Also good for cycloramas.
   name: Zenith Blue
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 1}
 
 - code: L196
   color: 78D2E6
   description: Great for moonlight effect.
   name: True Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L197
   color: 82AAE6
   description: Great for cyclorama lighting and creating deep blue skies cyclorama cycloramas.
   name: Alice Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L198
   color: 6478C8
   description: Good for dark moonlight or a romantic evening.
   name: Palace Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L199
   color: 6464E6
   description: A deep lavender blue that strongly enhances skin tones.
   name: Regal Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L200
   color: 91BEF5
   description: Converts tungsten (3200K) to daylight (26000K) .
   name: Double C.T. Blue
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L201
   color: C3E1FA
   description: Converts tungsten (3200K) to photographic daylight (5700K).
   name: Full C.T. Blue
-  stock: {cut: 4, sheet: 1}
+  stock: {cut: many, sheet: 3}
 
 - code: L202
   color: D7F0FF
   description: Converts tungsten (3200K) to daylight (4300K).
   name: Half C.T. Blue
-  stock: {cut: 6, sheet: 1}
+  stock: {cut: many, sheet: 1}
 
 - code: L203
   color: EBFCFF
   description: Converts tungsten (3200K) to daylight (3600K).
   name: Quarter C.T. Blue
-  stock: {cut: 3, sheet: 1}
+  stock: {cut: many, sheet: 3}
 
 - code: L204
   color: FAC387
   description: Converts daylight (6500K) to tungsten light (3200K).
   name: Full C.T. Orange
-  stock: {cut: 3, sheet: 0}
+  stock: {cut: none, sheet: 2}
 
 - code: L205
   color: FCD9B1
   description: Converts daylight (6500K) to tungsten light (3800K).
   name: Half C.T. Orange
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 1}
 
 - code: L206
   color: FCEAD6
   description: Converts daylight (6500K) to tungsten light (4600K).
   name: Quarter C.T. Orange
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 2}
 
 - code: L207
   color: F0B46B
   description: Converts daylight (6500K) to tungsten (3200K) and reduces light 1 stop.
   name: Full C.T. Orange + .3 ND
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L208
   color: E6A550
   description: Converts daylight (6500K) to tungsten (3200K) and reduces light 2 stops.
   name: Full C.T. Orange + .6 ND
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L210
   color: 8B868E
   description: .6 Neutral density. Reduces the intensity of a light source.
   name: .6ND
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: many, sheet: 3}
 
 - code: L216
   color: FFFFFF
   description: A strong diffusion used for soft light effects. Manufactured on a tough Polyester base in a range of seven strengths.
   name: White Diffusion
-  stock: {cut: 1, sheet: 0}
+  stock: {cut: none, sheet: 0}
 
 - code: L219
   color: 9BDCAF
   description: General tungsten to fluorescent correction for use when fluorescent colour temp is unknown, to provide medium correction.
   name: LEE Fluorescent Green
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: some, sheet: 2}
 
 - code: L256
   color: FFFFFF
   description: Extra light frost effect.
   name: Half Hampshire Frost
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 0}
 
 - code: L327
   color: 008C50
   description: A deep green for sinister forest scenes, cycloramas and backlighting.
   name: Forest Green
-  stock: {cut: 1, sheet: 0}
+  stock: {cut: none, sheet: 1}
 
 - code: L328
   color: FF64C8
   description: Great for dramatic stage lighting.
   name: Follies Pink
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 1}
 
 - code: L441
   color: FAC084
   description: Converts 6500K to 3200K - daylight to tungsten light with a yellow bias.
   name: Full C.T. Straw
-  stock: {cut: 2, sheet: 0}
+  stock: {cut: some, sheet: 1}
 
 - code: L442
   color: FCDCAD
   description: Converts 6500K to 4300K - daylight to tungsten light with a yellow bias.
   name: Half C.T. Straw
-  stock: {cut: 4, sheet: 1}
+  stock: {cut: many, sheet: 3}
 
 - code: L511
   color: 963C00
   description: An intense and warm deep brown. Designed to recreate the pigment browns used by Francis Bacon in some of his paintings.
   name: Bacon Brown
-  stock: {cut: 1, sheet: 1}
+  stock: {cut: none, sheet: 1}
 
 - code: L600
   color: 98a8aa
   description: Bright, brilliant blue-grey light at 100%. It does not warm up as it dims and is not affected by amber drift. Useful as backlight or for special effects where a whiter light is called for.
   name: Arctic White
-  stock: {cut: 3, sheet: 1}
+  stock: {cut: many, sheet: 1}
 
 - code: L601
   color: 90a0a0
   description: Silver-grey light at full power, dims through lavender grey then warm brown grey. Works well with 550 ALD Gold. Good for sense of intense darkness on stage whilst still being useful.
   name: Silver
-  stock: {cut: 1, sheet: 0}
+  stock: {cut: some, sheet: 0}
 
 - code: L602
   color: a5a5aa
   description: At full power produces dazzling grey light with slight red bias, when dimmed warms up quickly to a useful brown. Good for a cold, white sidelight that has some warmth in it.
   name: Platinum
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L603
   color: c8cdcd
   description: Pleasant white light at full power, dims down to a warm colour and at low intensities has more yellow than red. Good for sunlight effect as if through stormy clouds reflecting off ocean.
   name: Moonlight White
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: some, sheet: 1}
 
 - code: L604
   color: FFC295
   description: Converts Daylight (6500K) to Tungsten light (3200K) with a red bias. Creates an orange effect similar to sodium when used on Tungsten.
   name: Full C.T. Eight Five
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L700
   color: 7D00CD
   description: In-between 170 Deep Lavender and 345 Fuchsia Pink, and is good for backlighting and romantic atmospheres.
   name: Perfect Lavender
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L701
   color: B45ADC
   description: The colour of the Lavender fields of the south of France. A redder version of 180 for use on cameras balanced to tungsten sources.
   name: Provence
-  stock: {cut: 3, sheet: 0}
+  stock: {cut: none, sheet: 2}
 
 - code: L702
   color: E6D2F0
   description: A cold lavender when used with a full tungsten source, but warms as the source is dimmed. Good as a fill for slow sunset fades.
   name: Special Pale Lavender
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 1}
 
 - code: L703
   color: D282DC
   description: A colour that would be great for front / key lighting and that works well with 152 Pale Gold.
   name: Cold Lavender
-  stock: {cut: None, sheet: None}
+  stock: {cut: none, sheet: 0}
 
 - code: L708
   color: DCEBFA
   description: For use as a warmer tint without turning yellow and to recreate the colour of fluorescent lighting.
   name: Cool Lavender
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: some, sheet: 0}
 
 - code: L711
   color: AABEDC
   description: To give a cold/grey HMI effect from a tungsten source. Will also help blend the light when using both tungsten and HMI sources.
   name: Cold Blue
-  stock: {cut: 2, sheet: 0}
+  stock: {cut: some, sheet: 1}
 
 - code: L719
   color: 9BC3F0
   description: To allow low intensity tungsten to hold a cold/blue feel.
   name: Colour Wash Blue
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: some, sheet: 0}
 
 - code: L728
   color: C8EBD2
   description: Approaching storms. Overcast days. Cold steely light. Malevolent moonlight.
   name: Steel Green
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: many, sheet: 1}
 
 - code: L744
   color: F8C882
   description: Correct a daylight source to an off white tungsten source. Used with a tungsten source provides a "dingy" effect like a smoky bar.
   name: Dirty White
-  stock: {cut: 2, sheet: 1}
+  stock: {cut: many, sheet: 1}
 
 - code: L747
   color: F5B99F
   description: Primarily developed for fluorescents to ensure warm, comfortable light and flattering skin tones.
   name: Easy White
-  stock: {cut: 1, sheet: 0}
+  stock: {cut: none, sheet: 1}
 
 - code: L764
   color: FCE6B4
   description: Adds warmth, bright sunlight.
   name: Sun Colour Straw
-  stock: {cut: 3, sheet: 1}
+  stock: {cut: none, sheet: 0}
+
+- code: R132
+  stock: {cut: none, sheet: 3}
+
+- code: L16
+  stock: {cut: some, sheet: 0}
+
+- code: L12
+  stock: {cut: none, sheet: 0}
+
+- code: L114
+  stock: {cut: many, sheet: 0}
+
+- code: L190
+  stock: {cut: none, sheet: 0}
+
+- code: L80
+  stock: {cut: none, sheet: 1}
+
+- code: L652
+  color: FF8246
+  description: Used on tungsten to create the orange glow associated with Sodium light.
+  name: Urban Sodium
+  stock: {cut: none, sheet: 1}
+
+- code: R119
+  stock: {cut: many, sheet: 0}
