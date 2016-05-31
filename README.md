@@ -1,6 +1,6 @@
 # New Theatre Lighting Stock Catalogue
 
-[Jekyll](http://jekyllrb.com/) based site to catalogue theatrical lanterns, colour filters and gobos. Built as a replacement for [gel-view](https://github.com/wjdp/gel-view/). Lantern stock is not fully implemented yet, gobos not at all.
+[Jekyll](http://jekyllrb.com/) based site to catalogue theatrical lanterns, colour filters and gobos. Built as a replacement for [gel-view](https://github.com/wjdp/gel-view/).
 
 ![Screenshot](https://raw.githubusercontent.com/newtheatre/lx/gh-pages/screenshot.png)
 
