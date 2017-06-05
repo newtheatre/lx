@@ -67,7 +67,6 @@
 - code: L52
   color: E6AAFA
   description: Good for general areas and side lights. Great for a basic followspot colour as well as an excellent backlight.
-
   name: Light Lavender
   stock: {cut: many, sheet: 2}
 
@@ -418,13 +417,6 @@
   description: The lightest correction in the NCB series.
   name: Quater New Colour Blue
   stock: {cut: none, sheet: 1}
-
-- code: L511
-  color: 963C00
-  description: An intense and warm deep brown. Designed to recreate the pigment browns used by Francis Bacon in some of his paintings.
-  name: Bacon Brown
-  stock: {cut: none, sheet: 1}
-
 
 - code: L511
   color: 963C00
