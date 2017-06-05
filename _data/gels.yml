@@ -528,13 +528,6 @@
   name: Sun Colour Straw
   stock: {cut: none, sheet: 0}
 
-
-- code: L764
-  color: FCE6B4
-  description: Adds warmth, bright sunlight.
-  name: Sun Colour Straw
-  stock: {cut: none, sheet: 0}
-
 - code: R132
   stock: {cut: none, sheet: 3}
 
