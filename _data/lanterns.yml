@@ -5,7 +5,7 @@
   power: 1200
   image: rama.jpg
   stock:
-    good: 10
+    good: 12
     repair: 0
     broken: 0
 
@@ -16,8 +16,8 @@
   power: 650
   image: acclaim-fresnel.jpg
   stock:
-    good: 18
-    repair: 0
+    good: 16
+    repair: 2
     broken: 0
 
 - lantern:
@@ -28,7 +28,7 @@
   power: 1000
   image: patt743.jpg
   stock:
-    good: 4
+    good: 8
     repair: 0
     broken: 0
 
@@ -39,7 +39,7 @@
   power: 650
   image: cct-minuette.jpg
   stock:
-    good: 2
+    good: 3
     repair: 0
     broken: 0
 
@@ -51,9 +51,9 @@
   power: 500
   image: patt123.jpg
   stock:
-    good: 0
-    repair: 0
-    broken: 3
+    good: 2
+    repair: 1
+    broken: 0
 
 - lantern:
   make: ETC
@@ -62,7 +62,18 @@
   power: 575
   image: s4jnr.jpg
   stock:
-    good: 10
+    good: 9
+    repair: 0
+    broken: 0
+
+- lantern:
+  make: ETC
+  model: Source 4
+  type: Profile
+  power: 750
+  image: source4.jpg
+  stock:
+    good: 1
     repair: 0
     broken: 0
 
@@ -73,7 +84,7 @@
   power: 650
   image: acclaim-zoomspot.jpg
   stock:
-    good: 4
+    good: 5
     repair: 0
     broken: 0
 
@@ -116,20 +127,9 @@
   power: 75
   image: par16.jpg
   stock:
-    good: 15
+    good: 14
     repair: 0
     broken: 0
-
-- lantern:
-  make: Strand
-  model: Coda 500
-  type: Flood
-  power: 500
-  image: coda500.jpg
-  stock:
-    good: 1
-    repair: 0
-    broken: 1
 
 - lantern:
   make: Strand
