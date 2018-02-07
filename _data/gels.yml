@@ -521,7 +521,13 @@
   stock: {cut: none, sheet: 0}
 
 - code: R132
+  color: EFE6E4
+  description: As R119, but with a higher transmission.
+  name: Quarter Hamburg Frost
   stock: {cut: none, sheet: 3}
 
 - code: R119
+  color: EFE6E4
+  description: Frost diffusion effect. Useful for House Lights and LEDs.
+  name: Light Hamburg Frost
   stock: {cut: many, sheet: 0}
