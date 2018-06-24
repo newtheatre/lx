@@ -16,12 +16,6 @@
   name: Pale Amber Gold
   stock: {cut: some, sheet: 0}
 
-- code: L10
-  color: FFFF00
-  description: A pure bright yellow. Great for special effects and accents. Use with caution in acting areas.
-  name: Medium Yellow
-  stock: {cut: none, sheet: 0}
-
 - code: L13
   color: FCD89B
   description: Warmer than other straw colours. A good sunlight effect when used in contrast with ambers and blues.
@@ -39,12 +33,6 @@
   description: A strong red/amber. Great for fire effects.
   name: Fire
   stock: {cut: many, sheet: 0}
-
-- code: L24
-  color: FF5A64
-  description: Great for pantomimes, ballroom sets and fire effects.
-  name: Scarlet
-  stock: {cut: none, sheet: 0}
 
 - code: L25
   color: FF6E46
@@ -88,16 +76,16 @@
   name: Mist Blue
   stock: {cut: many, sheet: 0}
 
+- code: L63
+  color: D2F5FF
+  description: Cool front light wash, good for creating an overcast look for cold weather.
+  name: Pale Blue
+  stock: {cut: many, sheet: 0}
+
 - code: L68
   color: 46B4F0
   description: Good for morning skin tones and night skies. Great for cyclorama lights.
   name: Sky Blue
-  stock: {cut: none, sheet: 1}
-
-- code: L79
-  color: 3C8CD2
-  description: A good colour mixing blue. Great for cyclorama lighting.
-  name: Just Blue
   stock: {cut: none, sheet: 1}
 
 - code: L85
