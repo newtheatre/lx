@@ -58,6 +58,12 @@
   name: Bright Red
   stock: {cut: none, sheet: 0}
 
+- code: L27
+  color: C8003C
+  description: Good for cyclorama lighting, side lighting and footlights. Also good for colour mixing.
+  name: Medium Red
+  stock: {cut: none, sheet: 0}
+
 - code: L46
   color: DC005A
   description: A very strong pink, good for backlighting.
@@ -98,6 +104,12 @@
   color: 006EB9
   description: A deep warm blue. Good for back and side lighting.
   name: Deeper Blue
+  stock: {cut: some, sheet: 2}
+
+- code: L89
+  color: 5ADC5A
+  description: Good mood creator. Used with gobos, creates a great foliage effect.
+  name: Moss Green
   stock: {cut: some, sheet: 2}
 
 - code: L90
@@ -170,6 +182,12 @@
   color: 0078C8
   description: Good for mood effects created by backlighting and side lighting. Creates great contrast.
   name: Dark Blue
+  stock: {cut: some, sheet: 0}
+
+- code: L120
+  color: 005FBE
+  description: A pleasing effect for theatrical lighting.
+  name: Deep Blue
   stock: {cut: some, sheet: 0}
 
 - code: L121
@@ -316,6 +334,12 @@
   name: Zenith Blue
   stock: {cut: none, sheet: 1}
 
+- code: L199
+  color: 6464E6
+  description: A deep lavender blue that strongly enhances skin tones.
+  name: Regal Blue
+  stock: {cut: none, sheet: 1}
+
 - code: L200
   color: 91BEF5
   description: Converts tungsten (3200K) to daylight (26000K) .
@@ -376,10 +400,22 @@
   name: LEE Fluorescent Green
   stock: {cut: some, sheet: 2}
 
+- code: L242
+  color: B9E6B9
+  description: Converts tungsten to fluorescent light of 4300K (white).
+  name: LEE Fluorescent 4300 Kelvin
+  stock: {cut: some, sheet: 2}
+
 - code: L256
   color: FFFFFF
   description: Extra light frost effect.
   name: Half Hampshire Frost
+  stock: {cut: none, sheet: 0}
+
+- code: L281
+  color: CDE6FA
+  description: Converts tungsten to daylight.
+  name: Three Quater CTB
   stock: {cut: none, sheet: 0}
 
 - code: L327
