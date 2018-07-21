@@ -6,7 +6,7 @@
   image: rosco-77124.png
   stock:
     - size: M
-      qty: 2
+      qty: 3
 - gobo:
   make: Rosco
   number: 77703
@@ -15,7 +15,7 @@
   image: rosco-77703.png
   stock:
     - size: M
-      qty: 4
+      qty: 1
 - gobo:
   make: Rosco
   number: 77805
@@ -24,13 +24,49 @@
   image: rosco-77805.png
   stock:
     - size: M
-      qty: 4
+      qty: 2
+- gobo:
+  make: Rosco
+  number: 77178
+  name: Lightning 1
+  type: Breakup
+  image: rosco-77178.jpg
+  stock:
+    - size: M
+      qty: 1
+- gobo:
+  make: Rosco
+  number: 71036
+  name: Lightning 7
+  type: Breakup
+  image: rosco-71036.jpg
+  stock:
+    - size: M
+      qty: 1
+- gobo:
+  make: Rosco
+  number: 99203
+  name: Linear 10
+  type: Breakup
+  image: rosco-99203.png
+  stock:
+    - size: M
+      qty: 5
+- gobo:
+  make: Rosco
+  number: 79655
+  name: Jail Bars Vertical
+  type: Architecture
+  image: rosco-79655.jpg
+  stock:
+    - size: M
+      qty: 3
 - gobo:
   make: Gam
   number: G862
   name: Rain
   type: Breakup
-  image:
+  image: gam-g862.jpg
   stock:
     - size: B
       qty: 2
@@ -42,7 +78,7 @@
   image: rosco-78576.png
   stock:
     - size: B
-      qty: 2
+      qty: 1
 - gobo:
   make: Gam
   number: G222
@@ -72,46 +108,28 @@
       qty: 2
 - gobo:
   make: Rosco
+  number: 78129
+  name: Small Ripple
+  type: Breakup
+  image: rosco-78129.png
+  stock:
+    - size: B
+      qty: 2
+- gobo:
+  make: Rosco
+  number: 77119
+  name: Leaf Breakup (Small)
+  type: Breakup
+  image: rosco-77119.jpg
+  stock:
+    - size: B
+      qty: 2
+- gobo:
+  make: Rosco
   number: 77802
-  name: Stain Glassed Window
-  type: Breakup
-  image: rosco-77802.png
+  name: Stained Glass Window
+  type: Architecture
+  image: rosco-77802.jpg
   stock:
-    - size: M
-      qty: 1
-- gobo:
-  make: Rosco
-  number: 77178
-  name: Lightning 1
-  type: Breakup
-  image:
-  stock:
-    - size: M
-      qty: 1
-- gobo:
-  make: Rosco
-  number: 99203
-  name: Linear 10
-  type: Breakup
-  image: rosco-99203.png
-  stock:
-    - size: M
-      qty: 5
-- gobo:
-  make: Rosco
-  number: 79655
-  name: Jail Bars Vertical
-  type: Breakup
-  image:
-  stock:
-    - size: M
-      qty: 4
-- gobo:
-  make: Rosco
-  number: 71036
-  name: Lightning 7
-  type: Breakup
-  image:
-  stock:
-    - size: M
+    - size: B
       qty: 1
