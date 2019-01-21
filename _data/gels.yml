@@ -58,6 +58,12 @@
   name: Dark Magenta
   stock: {cut: none, sheet: 0}
 
+- code: L48
+  color: E66EAF
+  description: Good for emulating evening. Great backlight.
+  name: Rose Purple
+  stock: {cut: none, sheet: 0}
+
 - code: L52
   color: E6AAFA
   description: Good for general areas and side lights. Great for a basic followspot colour as well as an excellent backlight.
@@ -86,6 +92,12 @@
   color: 46B4F0
   description: Good for morning skin tones and night skies. Great for cyclorama lights.
   name: Sky Blue
+  stock: {cut: none, sheet: 1}
+
+- code: L71
+  color: 0000B4
+  description: A deep blue, used for midnight scenes and cyclorama lighting.
+  name: Tokyo Blue
   stock: {cut: none, sheet: 1}
 
 - code: L85
@@ -406,6 +418,12 @@
   name: Three Quater CTB
   stock: {cut: none, sheet: 0}
 
+- code: L323
+  color: 00E1AA
+  description: Used for underwater scenes, cycloramas and backlighting.
+  name: Jade
+  stock: {cut: none, sheet: 1}
+
 - code: L327
   color: 008C50
   description: A deep green for sinister forest scenes, cycloramas and backlighting.
@@ -446,6 +464,18 @@
   color: 963C00
   description: An intense and warm deep brown. Designed to recreate the pigment browns used by Francis Bacon in some of his paintings.
   name: Bacon Brown
+  stock: {cut: none, sheet: 1}
+
+- code: L513
+  color: F5FF7D
+  description: A pale acidic spring yellow. For a sharp white wash.
+  name: Ice and a Slice
+  stock: {cut: none, sheet: 1}
+
+- code: L514
+  color: F5FF5A
+  description: Double 513, when only a double will do. Has a more acidic bite.
+  name: Double G&T
   stock: {cut: none, sheet: 1}
 
 - code: L600
@@ -520,6 +550,18 @@
   name: Steel Green
   stock: {cut: many, sheet: 1}
 
+- code: L731
+  color: E1FAD7
+  description: Dirtier than 730 Liberty green, more orange, sympathetic with skin tones.
+  name: Dirty Ice
+  stock: {cut: many, sheet: 1}
+
+  - code: L733
+  color: EBF7CF
+  description: A dirty green, reduces warmth. Good for cross lighting.
+  name: Damp Squib
+  stock: {cut: many, sheet: 1}
+
 - code: L744
   color: F8C882
   description: Correct a daylight source to an off white tungsten source. Used with a tungsten source provides a dingy effect like a smoky bar.
@@ -542,6 +584,12 @@
   color: FCE6B4
   description: Adds warmth, bright sunlight.
   name: Sun Colour Straw
+  stock: {cut: none, sheet: 0}
+
+- code: L794
+  color: FFAFDC
+  description: Creates warm and soft effects.
+  name: Pretty 'n Pink
   stock: {cut: none, sheet: 0}
 
 - code: R132
