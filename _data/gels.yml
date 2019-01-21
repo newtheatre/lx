@@ -556,7 +556,7 @@
   name: Dirty Ice
   stock: {cut: many, sheet: 1}
 
-  - code: L733
+- code: L733
   color: EBF7CF
   description: A dirty green, reduces warmth. Good for cross lighting.
   name: Damp Squib
