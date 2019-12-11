@@ -4,6 +4,7 @@
   type: Fresnel
   power: 1200
   image: rama.jpg
+  angle: 7-50
   lamp: T29
   stock:
     good: 12
@@ -15,6 +16,7 @@
   model: Acclaim
   type: Fresnel
   power: 650
+  angle: 6-60
   lamp: T26/T27 (T18 500W is compatible)
   image: acclaim-fresnel.jpg
   stock:
@@ -29,6 +31,7 @@
   type: Fresnel
   power: 1000
   lamp: T19
+  angle: 8-60
   image: patt743.jpg
   stock:
     good: 8
@@ -39,6 +42,7 @@
   make: CCT
   model: Minuette
   type: Fresnel
+  angle: 6-48
   power: 650
   lamp: T26/T27 (T18 500W is compatible)
   image: cct-minuette.jpg
@@ -66,7 +70,9 @@
   type: Profile
   power: 575
   lamp: HPL575
+  angle: 25-50
   image: s4jnr.jpg
+  gobo: M
   stock:
     good: 9
     repair: 0
@@ -75,10 +81,12 @@
 - lantern:
   make: ETC
   model: Source 4
+  angle: 26 or 36
   type: Profile
   power: 575
   lamp: HPL575 (HPL750 are compatible)
   image: source4.jpg
+  gobo: B
   stock:
     good: 1
     repair: 0
@@ -108,6 +116,7 @@
 - lantern:
   make: Chauvet
   model: COLORdash Par-Quad 18
+  angle: 18
   type: Flood
   power: 117
   image: colordash-par-quad-18.jpg
@@ -169,6 +178,7 @@
   type: Strobe
   image: atomic.jpg
   power: 3000
+  lamp: MAX-15 Xenon
   stock:
     good: 1
     repair: 0
@@ -188,6 +198,7 @@
   make: Chauvet
   model: Q Spot 460 Led
   type: Mover
+  angle: 16
   power: 202
   image: qspot.jpg
   stock:
