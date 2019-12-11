@@ -5,7 +5,7 @@
   power: 1200
   image: rama.jpg
   angle: 7-50
-  lamp: T29
+  lamp: T29 (T19 1000W is compatible)
   stock:
     good: 12
     repair: 0
@@ -166,7 +166,7 @@
   type: Flood 
   image: batten.png
   power: 70
-  lamp: Edison 
+  lamp: Edison (Domestic)
   stock:
     good: 2
     repair: 0
