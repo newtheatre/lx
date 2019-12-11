@@ -6,10 +6,10 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.10.0)
+    coffee-script-source (1.12.2)
     colorator (1.1.0)
-    execjs (2.6.0)
-    ffi (1.11.1)
+    execjs (2.7.0)
+    ffi (1.11.3)
     forwardable-extended (2.6.0)
     jekyll (3.6.3)
       addressable (~> 2.4)
@@ -20,20 +20,20 @@ GEM
       liquid (~> 4.0)
       mercenary (~> 0.3.3)
       pathutil (~> 0.9)
-      rouge (~> 1.7, < 3)
+      rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
-    jekyll-coffeescript (1.0.1)
+    jekyll-coffeescript (2.0.0)
       coffee-script (~> 2.2)
+      coffee-script-source (~> 1.12)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     kramdown (1.17.0)
     liquid (4.0.3)
-    listen (3.1.5)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
-      ruby_dep (~> 1.2)
+    listen (3.2.1)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -57,4 +57,4 @@ DEPENDENCIES
   jekyll-coffeescript
 
 BUNDLED WITH
-   1.10.6
+   1.17.3
