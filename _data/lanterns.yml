@@ -4,6 +4,7 @@
   type: Fresnel
   power: 1200
   image: rama.jpg
+  lamp: T29
   stock:
     good: 12
     repair: 0
@@ -14,6 +15,7 @@
   model: Acclaim
   type: Fresnel
   power: 650
+  lamp: T26/T27 (T18 500W is compatible)
   image: acclaim-fresnel.jpg
   stock:
     good: 16
@@ -26,6 +28,7 @@
   model: Patt 223
   type: Fresnel
   power: 1000
+  lamp: T19
   image: patt743.jpg
   stock:
     good: 8
@@ -37,6 +40,7 @@
   model: Minuette
   type: Fresnel
   power: 650
+  lamp: T26/T27 (T18 500W is compatible)
   image: cct-minuette.jpg
   stock:
     good: 3
@@ -49,6 +53,7 @@
   model: Patt 123
   type: Fresnel
   power: 500
+  lamp: T17
   image: patt123.jpg
   stock:
     good: 2
@@ -60,6 +65,7 @@
   model: Source 4 Junior Zoom
   type: Profile
   power: 575
+  lamp: HPL575
   image: s4jnr.jpg
   stock:
     good: 9
@@ -70,7 +76,8 @@
   make: ETC
   model: Source 4
   type: Profile
-  power: 750
+  power: 575
+  lamp: HPL575 (HPL750 are compatible)
   image: source4.jpg
   stock:
     good: 1
@@ -114,6 +121,7 @@
   model: PAR64
   type: Flood
   power: 1000
+  lamp: CP95 (wide) / CP62 (narrow, blue tape)
   image: par64.jpg
   stock:
     good: 8
@@ -125,6 +133,7 @@
   model: PAR16
   type: Flood
   power: 75
+  lamp: GU10
   image: par16.jpg
   stock:
     good: 14
@@ -135,7 +144,20 @@
   make: Strand
   model: Patt 137
   type: Flood
+  power: 200
   image: patt137.jpg
+  stock:
+    good: 2
+    repair: 0
+    broken: 0
+
+- lantern:
+  make: Strand 
+  model: 8-cell Batten
+  type: Flood 
+  image: batten.png
+  power: 70
+  lamp: Edison 
   stock:
     good: 2
     repair: 0
