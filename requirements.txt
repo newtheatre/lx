@@ -1,4 +1,4 @@
-PyYAML==5.1
+PyYAML==5.4
 argparse==1.2.1
 beautifulsoup4==4.4.1
 requests==2.20.0
