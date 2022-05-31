@@ -28,7 +28,7 @@ permalink: /gobos/
         </div>
         {% endif %}
         <h2 class="gobo-title">{{ gobo.make }} <strong>{{ gobo.number }}</strong></h2>
-        {% if gobo.name %}<p class="gobo-name">{{ gobo.name }}</p>{% endif %}
+        <p class="gobo-name">{% if gobo.name %}{{ gobo.name }}{% endif %}</p>
         {% if gobo.stock %}
         <dl class="gobo-stock-list">
           {% for stock in gobo.stock %}
