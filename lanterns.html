@@ -7,7 +7,7 @@ permalink: /lanterns/
 <div class="nav-bar">
   <div class="wrapper">
     <div class="nav-button">
-      <a href="/" title="Back"><i class="ion-ios-arrow-back"></i></a>
+      <a href="{{ site.baseurl }}/" title="Back"><i class="ion-ios-arrow-back"></i></a>
     </div>
   </div>
 </div>
@@ -21,7 +21,7 @@ permalink: /lanterns/
       <div class="lantern-item lantern-type-{{ lantern.type | downcase }}">
         <div class="lantern-image">
           {% if lantern.image %}
-          <img src="/images/lanterns/{{ lantern.image }}" />
+          <img src="{{ site.baseurl }}/images/lanterns/{{ lantern.image }}" />
           {% endif %}
         </div>
         <h2 class="lantern-title">{{ lantern.make }} <strong>{{ lantern.model }}</strong>{% if lantern.angle %} ({{ lantern.angle}}&deg;){% endif %}</h2>

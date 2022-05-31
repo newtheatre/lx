@@ -7,7 +7,7 @@ permalink: /gobos/
 <div class="nav-bar">
   <div class="wrapper">
     <div class="nav-button">
-      <a href="/" title="Back"><i class="ion-ios-arrow-back"></i></a>
+      <a href="{{ site.baseurl }}/" title="Back"><i class="ion-ios-arrow-back"></i></a>
     </div>
   </div>
 </div>
@@ -21,7 +21,7 @@ permalink: /gobos/
       <div class="gobo-item gobo-type-{{ gobo.type | downcase }}">
         {% if gobo.image %}
         <div class="gobo-image">
-          <img src="/images/gobos/{{ gobo.image }}" />
+          <img src="{{ site.baseurl }}/images/gobos/{{ gobo.image }}" />
         </div>
         {% else %}
         <div class="gobo-image gobo-no-image">
