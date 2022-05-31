@@ -3,7 +3,7 @@ import yaml
 from yaml import Loader, Dumper
 from bs4 import BeautifulSoup, element
 
-lee_html = requests.get("http://leefilters.com/lighting/colour-list.html")
+lee_html = requests.get("http://web.archive.org/web/20210618025008id_/http://leefilters.com/lighting/colour-list.html")
 
 assert lee_html.status_code == 200, "Failed to fetch from leefilters.com"
 
