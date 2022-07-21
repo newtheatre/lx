@@ -1,5 +1,6 @@
 import csv
 import yaml
+from yaml import Loader, Dumper
 
 igels = {}
 
@@ -28,13 +29,13 @@ with open('_stocktake/sheet.csv') as f:
       sheets[row[0]] = 1
 
 # Do sheets
-for code, qty in sheets.iteritems():
+for code, qty in sheets.items():
   input_colour(code, qty, 'sheet')
 
 with open("_data/gels.yml", "r") as f:
-  ogels = yaml.load(f)
+  ogels = yaml.load(f, Loader=Loader)
 
-print "{} gels to process, processing all known".format(len(igels))
+print("{} gels to process, processing all known".format(len(igels)))
 
 for ogel in ogels:
   code = ogel['code']
@@ -55,12 +56,12 @@ for ogel in ogels:
     ogel['stock']['cut'] = 'none'
     ogel['stock']['sheet'] = 0
 
-print "{} gels to process, processing unknowns".format(len(igels))
+print("{} gels to process, processing unknowns".format(len(igels)))
 
 if len(igels) > 0:
-  print "Gels not known to the catalogue exist! Scrape or manually add data afterwards."
+  print("Gels not known to the catalogue exist! Scrape or manually add data afterwards.")
 
-for code, stock in igels.iteritems():
+for code, stock in igels.items():
   if 'cut' not in stock:
     stock['cut'] = 'none'
   if 'sheet' not in stock:
@@ -75,9 +76,10 @@ for code, stock in igels.iteritems():
   })
 
 with open("_data/gels.yml", "w") as f:
-  stream = yaml.dump(ogels, width=720, indent=2)
+  stream = yaml.dump(ogels, Dumper=Dumper, width=720, indent=2)
   stream = stream.replace('\n- ', '\n\n- ')
   stream = stream.replace('!!python/unicode ', '')
   f.write(stream)
 
-print "done"
+print("done")
+
