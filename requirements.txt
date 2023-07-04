@@ -1,5 +1,5 @@
 PyYAML==5.4
 argparse==1.2.1
 beautifulsoup4==4.4.1
-requests==2.20.0
+requests==2.31.0
 wsgiref==0.1.2
